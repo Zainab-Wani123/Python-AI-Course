@@ -1,0 +1,5 @@
+#Open a file named notes.txt, write "Python is fun", and close the file.(Concept: open, write, close)
+file=open("notes.txt","w")
+file.write("Python is fun")
+file.write("\ni love python")
+file.close()
